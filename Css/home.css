@@ -5,7 +5,7 @@ body {
 
 .navigation {
     background-color: #DDDDDD;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Quicksand;
     display: flex;
     justify-content: space-between;
     padding: 2vh;
@@ -14,7 +14,6 @@ body {
 
 .intro {
     background-color: #f0f0f0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: space-between;
 }
@@ -38,6 +37,16 @@ body {
     display: flex;
 }
 
+.homeTitle {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vh;
+    margin-left: 2vh;
+    margin-top: 3.2vh;
+    font-weight: bold;
+    font-family: Lato;
+}
+
 .right {
     margin-right: 20vh;
     margin-top: 3vh;
@@ -47,18 +56,21 @@ body {
     text-decoration: none;
     color: #2f2f2f;
     padding-right: 3vh;
+    font-size: 2vh;
+    font-family: Quicksand;
 }
 
 .button {
     background-color: #E5B1DD;
     border: none;
     color: #2f2f2f;
-    width: 207px;
-    height: 48px;
+    width: 25vh;
+    height: 6vh;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2vh;
+    font-family: Quicksand;
 }
 
 .textSection {
@@ -69,9 +81,53 @@ body {
 }
 
 .subtitle {
-    font-size: 16px;
+    font-size: 2vh;
+    font-family: Quicksand;
 }
 
 .main {
-    font-size: 85px;
+    font-size: 10vh;
+    font-family: Lato;
+    font-weight: Bold;
+}
+
+#introbutton {
+    margin-top: 1vh;
+    margin-right: 2vh;
+}
+
+.contact {
+    color: #BC81B2;
+    text-decoration: none;
+    font-family: Quicksand;
+}
+
+.foot {
+    background-color: #DDDDDD;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 8vh;
+    width: 100%;
+    opacity: .8;
+    display: flex;
+    flex-direction: row;
+}
+
+#copyright {
+    margin-left: 22.5vh;
+    margin-top: 3vh;
+    margin-right: 6vh;
+    margin-bottom: 3vh;
+    font-family: Quicksand;
+    font-weight: Bold;
+}
+
+.footimg {
+    width: 4vh;
+    height: 4vh;
+}
+
+.distance {
+    margin: 2vh;
 }
